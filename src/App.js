@@ -248,12 +248,12 @@ const App = () => {
             rel="noreferrer"
           >{`built on @${TWITTER_HANDLE}`}</a>
         </div>
-        <button
-          className="cta-button connect-wallet-button"
-          onclick="loction.href='https://testnets.opensea.io/collection/squarenft-6sa4oezqeu'"
+        <a
+          className="cta-button-opensea connect-wallet-button"
+          href="https://testnets.opensea.io/collection/squarenft-6sa4oezqeu"
         >
           Check NFT at Opensea
-        </button>
+        </a>
       </div>
     </div>
   );
