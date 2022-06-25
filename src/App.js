@@ -250,7 +250,7 @@ const App = () => {
         </div>
         <button
           className="cta-button connect-wallet-button"
-          onclick="https://testnets.opensea.io/collection/squarenft-6sa4oezqeu"
+          onclick="loction.href='https://testnets.opensea.io/collection/squarenft-6sa4oezqeu'"
         >
           Check NFT at Opensea
         </button>
