@@ -9,7 +9,7 @@ import React, { useEffect, useState } from "react";
 import twitterLogo from "./assets/twitter-logo.svg";
 import myEpicNft from "./utils/MyEpicNFT.json";
 
-const TWITTER_HANDLE = "あなたのTwitterハンドル";
+const TWITTER_HANDLE = "atkhm";
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const OPENSEA_LINK = "";
 const TOTAL_MINT_COUNT = 50;
@@ -235,7 +235,7 @@ const App = () => {
             </p>
           ) : (
             <p className="communicate-text">
-              これまでに発行されたNFTの数 {mintCount+1}/30
+              これまでに発行されたNFTの数 {mintCount + 1}/30
             </p>
           )}
         </div>
@@ -248,6 +248,12 @@ const App = () => {
             rel="noreferrer"
           >{`built on @${TWITTER_HANDLE}`}</a>
         </div>
+        <button
+          className="cta-button connect-wallet-button"
+          onclick="https://testnets.opensea.io/collection/squarenft-6sa4oezqeu"
+        >
+          Check NFT at Opensea
+        </button>
       </div>
     </div>
   );
