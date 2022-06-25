@@ -221,8 +221,8 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header gradient-text">My NFT Collection</p>
-          <p className="sub-text">あなただけの特別な NFT を Mint しよう💫</p>
+          <p className="header gradient-text">My Mango NFT</p>
+          <p className="sub-text">あなただけの特別な 🥭 を Mint しよう</p>
           {/*条件付きレンダリング。
           // すでにウォレット接続されている場合は、
           // Mint NFT を表示する。*/}
@@ -235,7 +235,7 @@ const App = () => {
             </p>
           ) : (
             <p className="communicate-text">
-              これまでに発行されたNFTの数 {mintCount + 1}/30
+              これまでに発行された 🥭 の数 {mintCount + 1}/30
             </p>
           )}
         </div>
